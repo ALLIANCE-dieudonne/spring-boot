@@ -5,7 +5,11 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <!-- bean definitions here -->
-  <bean id="doctor" class="org.alliance.Doctor"/>
+  <bean id="doctor" class="org.alliance.Doctor">
+    <property name="qualifications" value="MASTERS">
+
+    </property>
+  </bean>
   <bean id="nurse" class="org.alliance.Nurse"/>
 
 </beans>
