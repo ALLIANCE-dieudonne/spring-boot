@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9dd1125-ee82-4bea-871f-8cc4b449f231" name="Changes" comment="constructor injection">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alliance/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alliance/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alliance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alliance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+    <list default="true" id="f9dd1125-ee82-4bea-871f-8cc4b449f231" name="Changes" comment="annotation based configuration">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alliance/BeanConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693008404244</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="annotation based configuration">
+      <created>1693010173354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693010173354</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +138,8 @@
     <MESSAGE value="bean in hierachy" />
     <MESSAGE value="setter injection of properties into beans" />
     <MESSAGE value="constructor injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor injection" />
+    <MESSAGE value="annotation based configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="annotation based configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
