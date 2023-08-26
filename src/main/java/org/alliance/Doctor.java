@@ -1,10 +1,14 @@
 package org.alliance;
 
-public class Doctor implements Staff{
+public class Doctor implements Staff {
+
+  public Doctor(String qualifications) {
+    this.qualifications = qualifications;
+  }
 
   private String qualifications;
 
-  public void doc(){
+  public void doc() {
     System.out.println("This is the doctor");
   }
 
@@ -20,4 +24,6 @@ public class Doctor implements Staff{
   public void setQualifications(String qualifications) {
     this.qualifications = qualifications;
   }
+
+
 }

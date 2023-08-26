@@ -6,9 +6,7 @@
 
   <!-- bean definitions here -->
   <bean id="doctor" class="org.alliance.Doctor">
-    <property name="qualifications" value="MASTERS">
-
-    </property>
+    <constructor-arg value="MASTERS" />
   </bean>
   <bean id="nurse" class="org.alliance.Nurse"/>
 

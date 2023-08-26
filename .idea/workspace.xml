@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9dd1125-ee82-4bea-871f-8cc4b449f231" name="Changes" comment="bean in hierachy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9dd1125-ee82-4bea-871f-8cc4b449f231" name="Changes" comment="setter injection of properties into beans">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alliance/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alliance/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alliance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alliance/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693007153906</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setter injection of properties into beans">
+      <created>1693007874224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693007874224</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +103,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="dependency injection using xml configuration" />
     <MESSAGE value="bean in hierachy" />
-    <option name="LAST_COMMIT_MESSAGE" value="bean in hierachy" />
+    <MESSAGE value="setter injection of properties into beans" />
+    <option name="LAST_COMMIT_MESSAGE" value="setter injection of properties into beans" />
   </component>
 </project>
